@@ -26,3 +26,7 @@ Ao registrar este **MCP Server** no **Visual Studio Code** como um endpoint **ht
 Constarão 3 tools entre as opções de MCP disponíveis:
 
 ![VS Code MCP disponíveis](img/vscode-mcp-01.png)
+
+Ao realizar uma pergunta no **chat do GitHub Copilot** em modo **Agent**:
+
+![Pergunta via chat](img/vscode-mcp-02.png)
