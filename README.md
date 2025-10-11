@@ -1,12 +1,18 @@
 # aspnetcore9-mcp-fakedata
 Implementação em ASP.NET Core + .NET 9 de MCP Server para a geração de dados fake de empresas, contatos e produtos no padrão brasileiro. Inclui o uso da biblioteca Bogus e de um Dockerfile para build de imagens da aplicação.
 
-Este MCP Server também foi disponibilizado através da imagem **xrenatogroffe/aspnetcore9-mcp-fakedata**, que está como pública no Docker Hub:
+Este MCP Server também foi disponibilizado através da imagem **renatogroffe/aspnetcore9-mcp-fakedata**, que está como pública no Docker Hub:
 
-https://hub.docker.com/repository/docker/renatogroffe/aspnetcore9-mcp-fakedata/general
+https://hub.docker.com/r/renatogroffe/aspnetcore9-mcp-fakedata/tags
 
 ```bash
 docker pull renatogroffe/aspnetcore9-mcp-fakedata:1
+```
+
+Para instanciar um container utilize:
+
+```bash
+docker run -p 1234:8080 -d renatogroffe/aspnetcore9-mcp-fakedata:1
 ```
 
 Ao registrar este **MCP Server** no **Visual Studio Code** como um endpoint **http** (arquivo **/.vscode/mcp.json**):
@@ -15,7 +21,7 @@ Ao registrar este **MCP Server** no **Visual Studio Code** como um endpoint **ht
 {
 	"servers": {
 		"mcp-fake-data": {
-			"url": "endpoint_http",
+			"url": "http://localhost:1234",
 			"type": "http"
 		}
 	},
