@@ -34,3 +34,11 @@ Ao realizar uma pergunta no **chat do GitHub Copilot** em modo **Agent**:
 Tool do MCP sendo invocada:
 
 ![Tool do MCP](img/vscode-mcp-03.png)
+
+Resultados ao invocar as MCP Tools (geração de dados de dados fake + criação/inclusão de dados em tabela):
+
+![Resultados 1](img/vscode-mcp-04.png)
+
+![Resultados 2](img/vscode-mcp-05.png)
+
+![Resultados 3](img/vscode-mcp-06.png)
