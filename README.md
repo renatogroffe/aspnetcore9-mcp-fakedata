@@ -30,3 +30,7 @@ Constarão 3 tools entre as opções de MCP disponíveis:
 Ao realizar uma pergunta no **chat do GitHub Copilot** em modo **Agent**:
 
 ![Pergunta via chat](img/vscode-mcp-02.png)
+
+Tool do MCP sendo invocada:
+
+![Tool do MCP](img/vscode-mcp-03.png)
